@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter a Number : ");
+    scanf("%d",&n);
+    if(n<0 || n>5)
+    {
+        printf("Please select a number between 1 to 5");
+    }
+    else if(n=1)
+    {
+        printf("Burger \nPrice:Rs.129");
+    }
+    else if(n=2)
+    {
+        printf("Pizza \nPrice:Rs.239");
+    }
+    else if(n=3)
+    {
+        printf("French Fries \nPrice:Rs.99");
+    }
+    else if(n=4)
+    {
+        printf("Pasta \nPrice:Rs.179");
+    }
+    else if(n=5)
+    {
+        printf("Sandwich \nPrice:Rs.149");
+    }
+   
+}
